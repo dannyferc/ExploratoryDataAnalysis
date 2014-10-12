@@ -2,6 +2,7 @@ setwd("/Users/dfernandezcanon/Documents/Development/R/Project/ExploratoryDataAna
 
 source("LoadSubset.R")
 
+#call function to load data
 data <- LoadSubset()
 
 #create png file

@@ -6,7 +6,7 @@ source("LoadSubset.R")
 data <- LoadSubset()
 
 #create png file
-png("plot1.png", width = 504, height = 504)
+png("plot1.png", width = 480, height = 480)
 
 #add the histogram to the file
 hist(data$Global_active_power, col = "red", main = "Global Active Power", xlab = "Global Active Power (kilowatts)")

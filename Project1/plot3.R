@@ -6,7 +6,7 @@ source("LoadSubset.R")
 data <- LoadSubset()
 
 #create png file
-png("plot3.png", width = 504, height = 504)
+png("plot3.png", width = 480, height = 480)
 
 #add the sub_metering value 1 to the plot
 plot(data$Time, data$Sub_metering_1, type ="s", xlab = "", ylab ="Energy sub metering", col = "black")

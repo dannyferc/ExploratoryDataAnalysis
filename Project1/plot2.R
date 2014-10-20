@@ -1,5 +1,7 @@
 setwd("/Users/dfernandezcanon/Documents/Development/R/Project/ExploratoryDataAnalysis/Project1")
 
+Sys.setlocale("LC_TIME", "English")
+
 source("LoadSubset.R")
 
 #call function to load data

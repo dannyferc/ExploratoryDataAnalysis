@@ -6,7 +6,7 @@ source("LoadSubset.R")
 data <- LoadSubset()
 
 #create png file
-png("plot4.png", width = 504, height = 504)
+png("plot4.png", width = 480, height = 480)
 par(mfrow = c(2, 2))
 
 #first plot

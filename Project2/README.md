@@ -1,8 +1,4 @@
-<!-- h1.assessmentTitle Course Project 2-->
-<div id="assessmentForm">
-  <div id="topContentToolbar" class="contentToolbar form-actions">
-<div class="assessmentActionBar"><div class="contentToolbarButtons"><div class="pull-left" style="text-align: left;"><span style="color:green"><i class="icon-ok"></i> Submitted.</span>  You can still make changes and re-submit before the deadline.<p><label><input type="checkbox" id="honorCode" class="honorCode" disabled="disabled" checked="checked">&nbsp;In accordance with the Honor Code, I certify that my answers here are my own work, and that I have appropriately acknowledged all external sources (if any) that were used in this work.</label></p></div><div class="pull-right"><a id="assessmentSubmit" href="#" role="button" class="hg-internal assessmentSubmit btn btn-primary">Re-submit for grading</a></div></div></div></div>
-  <div id="assessmentFormContent"><div class="submissionForm"><div id="assessmentHead"><div id="forumThreadLinkSection"></div></div><div id="evaluatedGroup-f5ff7c3e71d8f4ff" class="assessmentSection"><div class="assessmentExposition"><div class="assessmentText" dir="auto"><h2>Introduction</h2>
+<div class="assessmentText" dir="auto"><h2>Introduction</h2>
 
 <p>Fine particulate matter (PM<sub>2.5</sub>) is an ambient air pollutant
 for which there is strong evidence that it is harmful to human

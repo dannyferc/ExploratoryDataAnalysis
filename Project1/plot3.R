@@ -1,12 +1,14 @@
 setwd("/Users/dfernandezcanon/Documents/Development/R/Project/ExploratoryDataAnalysis/Project1")
 
+Sys.setlocale("LC_TIME", "English")
+
 source("LoadSubset.R")
 
 #call function to load data
 data <- LoadSubset()
 
 #create png file
-png("plot3.png", width = 504, height = 504)
+png("plot3.png", width = 480, height = 480)
 
 #add the sub_metering value 1 to the plot
 plot(data$Time, data$Sub_metering_1, type ="s", xlab = "", ylab ="Energy sub metering", col = "black")
@@ -20,4 +22,3 @@ legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), col 
 
 #close the file
 dev.off()
-

@@ -12,11 +12,6 @@ LoadSubset <- function (){
 	#subset the data
 	dataProj <- subset(data, Date %in% dates)
 	dataProj$Time <- strptime(paste(dataProj$Date, dataProj$Time), "%Y-%m-%d %H:%M:%S")
-	for(i in c(3:9)) {
-		dataProj[,i] <- as.numeric(as.character(dataProj[,i]))
-	}
+	dataProj[,3:9] <- as.numeric(as.character(dataProj[,3:9]))
 	return(dataProj)
 }
-
-
-

@@ -15,3 +15,4 @@ LoadSubset <- function (){
 	dataProj[,3:9] <- as.numeric(as.character(dataProj[,3:9]))
 	return(dataProj)
 }
+
